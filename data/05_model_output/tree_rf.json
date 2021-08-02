@@ -1,0 +1,28 @@
+{
+    "tree_rf": {
+        "train_time": 0.819009,
+        "prediction_time": 0.0003,
+        "best_params": {
+            "model__max_features": "auto",
+            "model__n_estimators": 10,
+            "model__random_state": 42
+        },
+        "best_score": 10.936919215291752,
+        "columns": [
+            "crim",
+            "zn",
+            "indus",
+            "chas",
+            "nox",
+            "rm",
+            "age",
+            "dis",
+            "rad",
+            "tax",
+            "ptratio",
+            "b",
+            "lstat",
+            "if_anomaly"
+        ]
+    }
+}

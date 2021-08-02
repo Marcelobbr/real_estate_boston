@@ -1,0 +1,22 @@
+{
+    "reg": {
+        "train_time": 1.704025,
+        "prediction_time": 0.0002005,
+        "best_params": {
+            "model__alpha": 0.2,
+            "model__l1_ratio": 0.75,
+            "model__random_state": 42
+        },
+        "best_score": 12.325632143994682
+    },
+    "reg_nocol": {
+        "train_time": 1.940997,
+        "prediction_time": 0.0003001,
+        "best_params": {
+            "model__alpha": 0.2,
+            "model__l1_ratio": 0.75,
+            "model__random_state": 42
+        },
+        "best_score": 12.325632143994682
+    }
+}

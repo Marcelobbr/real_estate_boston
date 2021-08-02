@@ -1,0 +1,8 @@
+GridSearchCV(cv=5,
+             estimator=Pipeline(steps=[('imputation',
+                                        SimpleImputer(strategy='median')),
+                                       ('model', RandomForestRegressor())]),
+             param_grid={'model__max_features': [1, 2, 'auto', 'log2', None],
+                         'model__n_estimators': [10],
+                         'model__random_state': [42]},
+             scoring='neg_mean_squared_error')
